@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://C:/eclipse-java-kepler-SR1-win32-x86_64/Libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/eclipse-java-kepler-SR1-win32-x86_64/Libs/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44/src" />
+        </SOURCES>
+        <jarDirectory url="file://C:/eclipse-java-kepler-SR1-win32-x86_64/Libs" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="selenium-server-standalone-3.7.1" level="project" />
+    <orderEntry type="library" exported="" name="junit-4.10" level="project" />
+  </component>
+</module>
