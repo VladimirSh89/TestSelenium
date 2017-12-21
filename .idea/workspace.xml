@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="724d43ca-6f2c-4a65-8be6-ee397ca4b980" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestReporter/JUnitTestReporter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestSuite/AllTestSuit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/parameters.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/AbstractWebDriverTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/ContactMessageServiceTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/CreateAccountServiceTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/ServiceTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TestReporter/JUnitTestReporter.java" afterPath="$PROJECT_DIR$/src/main/java/TestReporter/JUnitTestReporter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TestSuite/AllTestSuit.java" afterPath="$PROJECT_DIR$/src/main/java/TestSuite/AllTestSuit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/parameters.properties" afterPath="$PROJECT_DIR$/src/main/java/parameters.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/AbstractWebDriverTest.java" afterPath="$PROJECT_DIR$/src/main/java/test/AbstractWebDriverTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/ContactMessageServiceTest.java" afterPath="$PROJECT_DIR$/src/main/java/test/ContactMessageServiceTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/CreateAccountServiceTest.java" afterPath="$PROJECT_DIR$/src/main/java/test/CreateAccountServiceTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/ServiceTest.java" afterPath="$PROJECT_DIR$/src/main/java/test/ServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
