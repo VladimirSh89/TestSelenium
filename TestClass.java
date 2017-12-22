@@ -28,14 +28,12 @@ public class TestClass {
         driver.quit();
     }
 
-
-    //Тестирование валидного сценария
     @Test
-    public void sendValidMessage() throws InterruptedException {
+    public void sendValidMessage() throws InterruptedException{
         click(By.xpath("//*[@id=\"contact-link\"]"));
 
         //connect = new DBConnect();
-        // String test = connect.getData();
+       // String test = connect.getData();
         //String[] array = test.split(";");
 
         Select selectDrop = new Select(driver.findElement(By.xpath("//*[@id=\"id_contact\"]")));
@@ -52,6 +50,25 @@ public class TestClass {
         Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"center_column\"]/p")).getText().contains("Your message has been"));
         Thread.sleep(2000);
 
+    }
+
+    public static ExpectedCondition<Boolean> invisibilityOfElementLocated(
+            final By locator) {
+        return new ExpectedCondition<Boolean>() {
+            public Boolean apply(WebDriver driver) {
+                try {
+                    return !(findElement(locator, driver).isDisplayed());
+                } catch (NoSuchElementException e) {
+                    // Returns true because the element is not present in DOM. The
+                    // try block checks if the element is present but is invisible.
+                    return true;
+                } catch (StaleElementReferenceException e) {
+                    // Returns true because stale element reference implies that element
+                    // is no longer visible.
+                    return true;
+                }
+            }
+        };
     }
 
     @Test
